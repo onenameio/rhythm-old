@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap",
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "version": "4.0.0-alpha.2",
+  "name": "onename-bootstrap",
+  "description": "Onename's flavor of Bootstrap 4",
+  "version": "0.0.0",
   "keywords": [
     "css",
     "sass",
@@ -11,8 +11,7 @@
     "framework",
     "web"
   ],
-  "homepage": "http://getbootstrap.com",
-  "author": "Twitter, Inc.",
+  "author": "Halfmoon Labs, Inc.",
   "scripts": {
     "change-version": "node grunt/change-version.js",
     "test": "grunt test"
@@ -22,10 +21,10 @@
   "main": "./dist/js/npm",
   "repository": {
     "type": "git",
-    "url": "https://github.com/twbs/bootstrap.git"
+    "url": "https://github.com/onenameio/onename-bootstrap.git"
   },
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap/issues"
+    "url": "https://github.com/onenameio/onename-bootstrap/issues"
   },
   "license": "MIT",
   "devDependencies": {
