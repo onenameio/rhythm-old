@@ -82,7 +82,7 @@ group: style-guide
 {% endexample %}
 </div>
 
-<h1 class="bd-title"></h1>Media Object
+<h1 class="bd-title">Media Object</h1>
 
 {% example html %}
 <div class="media">
@@ -97,6 +97,156 @@ group: style-guide
 {% endexample %}
 
 <h1 class="bd-title">Responsive Utilities</h1>
+
+## Available classes
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped responsive-utilities">
+    <thead>
+      <tr>
+        <th></th>
+        <th>
+          Extra small devices
+          <small>Portrait phones (&lt;34em)</small>
+        </th>
+        <th>
+          Small devices
+          <small>Landscape phones (&ge;34em)</small>
+        </th>
+        <th>
+          Medium devices
+          <small>Tablets (&ge;48em)</small>
+        </th>
+        <th>
+          Large devices
+          <small>Desktops (&ge;62em)</small>
+        </th>
+        <th>
+          Extra large devices
+          <small>Desktops (&ge;75em)</small>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><code>.hidden-xs-down</code></th>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>.hidden-sm-down</code></th>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>.hidden-md-down</code></th>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>.hidden-lg-down</code></th>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-visible">Visible</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>.hidden-xl-down</code></th>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>.hidden-xs-up</code></th>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>.hidden-sm-up</code></th>
+        <td class="is-visible">Visible</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>.hidden-md-up</code></th>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>.hidden-lg-up</code></th>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-hidden">Hidden</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>.hidden-xl-up</code></th>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-visible">Visible</td>
+        <td class="is-hidden">Hidden</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 id="responsive-utilities-print">Print classes</h2>
+<p>Similar to the regular responsive classes, use these for toggling content for print.</p>
+<div class="table-responsive">
+  <table class="table table-bordered table-striped responsive-utilities">
+    <thead>
+      <tr>
+        <th>Class</th>
+        <th>Browser</th>
+        <th>Print</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><code>.visible-print-block</code></th>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-visible">Visible<br>(as <code>display: block</code>)</td>
+      </tr>
+      <tr>
+        <th><code>.visible-print-inline</code></th>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-visible">Visible<br>(as <code>display: inline</code>)</td>
+      </tr>
+      <tr>
+        <th><code>.visible-print-inline-block</code></th>
+        <td class="is-hidden">Hidden</td>
+        <td class="is-visible">Visible<br>(as <code>display: inline-block</code>)</td>
+      </tr>
+      <tr>
+        <th><code>.hidden-print</code></th>
+        <td class="is-visible">Visible</td>
+        <td class="is-hidden">Hidden</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Test cases
 
@@ -608,6 +758,115 @@ Cards require a small amount of markup and classes to provide you with as much c
     <a href="#" class="btn btn-primary">Button</a>
   </div>
 </div>
+{% endexample %}
+
+## Header and footer
+
+{% example html %}
+<div class="card text-xs-center">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-block">
+    <h4 class="card-title">Special title treatment</h4>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+{% endexample %}
+
+## Image overlays
+
+Turn an image into a card background and overlay your card's text. Depending on the image, you may or may not need `.card-inverse` (see below).
+
+{% example html %}
+<div class="card card-inverse">
+  <img class="card-img" data-src="holder.js/100px270/#55595c:#373a3c/text:Card image" alt="Card image">
+  <div class="card-img-overlay">
+    <h4 class="card-title">Card title</h4>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+</div>
+{% endexample %}
+
+## Groups
+
+Use card groups to render cards as a single, attached element with equal width and height columns. By default, card groups use `display: table;` and `table-layout: fixed;` to achieve their uniform sizing. However, enabling [flexbox mode]({{ site.baseurl }}/getting-started/flexbox) can switch that to use `display: flex;` and provide the same effect.
+
+Only applies to small devices and above.
+
+{% example html %}
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" data-src="holder.js/100px180/" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" data-src="holder.js/100px180/" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" data-src="holder.js/100px180/" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+{% endexample %}
+
+<h1 class="bd-title">Navs</h1>
+
+## Base nav
+
+{% example html %}
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Another link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+{% endexample %}
+
+{% example html %}
+<nav class="nav">
+  <a class="nav-link active" href="#">Active</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link" href="#">Another link</a>
+  <a class="nav-link disabled" href="#">Disabled</a>
+</nav>
+{% endexample %}
+
+## Inline
+
+{% example html %}
+<nav class="nav nav-inline">
+  <a class="nav-link active" href="#">Active</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link" href="#">Another link</a>
+  <a class="nav-link disabled" href="#">Disabled</a>
+</nav>
 {% endexample %}
 
 <h1 class="bd-title">Navbar</h1>
