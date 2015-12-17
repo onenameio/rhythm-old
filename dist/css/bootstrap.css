@@ -4445,7 +4445,6 @@ a.label:focus, a.label:hover {
 
 .progress[value] {
   -webkit-appearance: none;
-  -webkit-appearance: none;
   color: #0074d9;
   border: 0;
 
@@ -6209,5 +6208,4 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none !important;
   }
 }
-
 /*# sourceMappingURL=bootstrap.css.map */
