@@ -31,3 +31,17 @@ bootstrap/
 ```
 
 We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developer.chrome.com/devtools/docs/css-preprocessors) (`bootstrap.*.map`) are available for use with certain browsers' developer tools.
+
+## Documentation
+
+Bootstrap's documentation, included in this repo in the root directory, is built with [Jekyll](http://jekyllrb.com) and publicly hosted on GitHub Pages at <http://getbootstrap.com>. The docs may also be run locally.
+
+### Running documentation locally
+
+1. If necessary, [install Jekyll](http://jekyllrb.com/docs/installation) (requires v3.0.x).
+   **Note for Windows users:** Read [this unofficial guide](http://jekyll-windows.juthilo.com/) to get Jekyll up and running without problems.
+2. Install the Ruby-based syntax highlighter, [Rouge](https://github.com/jneen/rouge), with `gem install rouge`.
+3. From the root `/bootstrap` directory, run `jekyll serve` in the command line.
+4. Open `http://localhost:4000` in your browser, and voilà.
+
+Learn more about using Jekyll by reading its [documentation](http://jekyllrb.com/docs/home/).
