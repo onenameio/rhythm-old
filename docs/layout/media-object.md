@@ -4,6 +4,12 @@ title: Media object
 group: layout
 ---
 
+<style type="text/css">
+  .bd-search, .bd-links {
+    display: none;
+  }
+</style>
+
 The [media object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/) is an abstract element used as the basis for building more complex and repetitive components (like blog comments, Tweets, etc). Included is support for left and right aligned content, content alignment options, nesting, and more.
 
 {% callout info %}
