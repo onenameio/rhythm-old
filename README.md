@@ -1,4 +1,4 @@
-# Onename Bootstrap
+# Rhythm
 
 ## Quick start
 
