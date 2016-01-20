@@ -27,31 +27,6 @@
 //
 // Grayscale and brand colors for use across Bootstrap.
 
-
-$grey: (
-  "lighten-5":  #,
-  "lighten-4":  #e1e1e1,
-  "lighten-3":  #
-  "lighten-2":  #,
-  "lighten-1":  #,
-  "base":       #,
-  "darken-1":   #,
-  "darken-2":   #,
-  "darken-3":   #,
-  "darken-4":   #
-);
-
-$shades: (
-  "black":        #000000,
-  "white":        #FFFFFF,
-  "transparent":  transparent
-);
-
-$colors: (
-  "grey": $grey,
-  "shades": $shades
-);
-
 $grey-50:                   #e6e6e6 !default;
 $grey-100:                  #e1e1e1 !default;
 $grey-200:                  #c7c7c7 !default;
@@ -62,6 +37,10 @@ $grey-600:                  #616161 !default;
 $grey-700:                  #484848 !default;
 $grey-800:                  #2e2e2e !default;
 $grey-900:                  #151515 !default;
+
+$black:                     #000000 !default;
+$white:                     #ffffff !default;
+$transparent:               transparent !default;
 
 $gray-dark:                 #373a3c !default;
 $gray:                      #55595c !default;
@@ -74,24 +53,6 @@ $brand-success:             #62c462 !default;
 $brand-info:                #5bc0de !default;
 $brand-warning:             #f89406 !default;
 $brand-danger:              #ee5f5b !default;
-
-
-//== Colors
-//
-//## Gray and brand colors for use across Bootstrap.
-
-$gray-base:              #000 !default;
-$gray-darker:            #272B30 !default; // #222
-$gray-dark:              #3A3F44 !default;   // #333
-$gray:                   #52575C !default; // #555
-$gray-light:             #7A8288 !default;   // #999
-$gray-lighter:           #999 !default; // #eee
-
-$brand-primary:         $gray-light !default;
-$brand-success:         #62c462 !default;
-$brand-info:            #5bc0de !default;
-$brand-warning:         #f89406 !default;
-$brand-danger:          #ee5f5b !default;
 
 
 
