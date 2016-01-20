@@ -37,6 +37,82 @@ $bd-danger:         #d9534f;
 $bd-warning:        #f0ad4e;
 $bd-info:           #5bc0de;
 
+// Chord Colors
+$grey: (
+  "lighten-5":  #e6e6e6,
+  "lighten-4":  #e1e1e1,
+  "lighten-3":  #c7c7c7,
+  "lighten-2":  #aeaeae,
+  "lighten-1":  #949494,
+  "base":       #7b7b7b,
+  "darken-1":   #616161,
+  "darken-2":   #484848,
+  "darken-3":   #2e2e2e,
+  "darken-4":   #151515
+);
+
+$shades: (
+  "black":        #000000,
+  "white":        #FFFFFF,
+  "transparent":  transparent
+);
+
+$colors: (
+  "grey": $grey,
+  "shades": $shades
+);
+
+// Color Classes
+
+@each $color_name, $color in $colors {
+  @each $color_type, $color_value in $color {
+    @if $color_type == "base" {
+      .#{$color_name} {
+        background-color: $color_value !important;
+      }
+      .#{$color_name}-text {
+        color: $color_value !important;
+      }
+    }
+    @else {
+      .#{$color_name}.#{$color_type} {
+        background-color: $color_value !important;
+      }
+      .#{$color_name}-text.text-#{$color_type} {
+        color: $color_value !important;
+      }
+    }
+  }
+}
+
+// Shade classes
+@each $color, $color_value in $shades {
+  .#{$color} {
+    background-color: $color_value !important;
+  }
+  .#{$color}-text {
+    color: $color_value !important;
+  }
+}
+
+
+// usage: color("name_of_color", "type_of_color")
+// to avoid to repeating map-get($colors, ...)
+
+@function color($color, $type) {
+  @if map-has-key($colors, $color) {
+    $curr_color: map-get($colors, $color);
+    @if map-has-key($curr_color, $type) {
+      @return map-get($curr_color, $type);
+    }
+  }
+  @warn "Unknown `#{name}` in $colors.";
+  @return null;
+}
+
+Status API Training Shop Blog About Pricing
+
+
 // Load docs components
 @import "booticon";
 @import "nav";

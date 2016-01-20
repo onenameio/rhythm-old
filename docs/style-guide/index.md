@@ -15,16 +15,16 @@ group: style-guide
       <span class="shade light-strong">500</span>
       <span class="hex light-strong">#9e9e9e</span>
     </li>
-    <li class="list-group-item color dark" style="background-color: #fafafa;"><span class="shade expanded">50</span><span class="hex">#fafafa</span></li>
+    <li class="list-group-item color dark" style="background-color: #fafafa;"><span class="shade">50</span><span class="hex">#fafafa</span></li>
     <li class="list-group-item color dark" style="background-color: #e1e1e1;"><span class="shade">100</span><span class="hex">#e1e1e1</span></li>
-    <li class="list-group-item color dark" style="background-color: #c7c7c7;"><span class="shade expanded">200</span><span class="hex">#c7c7c7</span></li>
+    <li class="list-group-item color dark" style="background-color: #c7c7c7;"><span class="shade">200</span><span class="hex">#c7c7c7</span></li>
     <li class="list-group-item color dark" style="background-color: #aeaeae;"><span class="shade">300</span><span class="hex">#aeaeae</span></li>
-    <li class="list-group-item color dark" style="background-color: #949494;"><span class="shade expanded">400</span><span class="hex">#949494</span></li>
+    <li class="list-group-item color dark" style="background-color: #949494;"><span class="shade">400</span><span class="hex">#949494</span></li>
     <li class="list-group-item color dark" style="background-color: #7b7b7b;"><span class="shade">500</span><span class="hex">#7b7b7b</span></li>
-    <li class="list-group-item color" style="background-color: #616161;"><span class="shade expanded">600</span><span class="hex">#616161</span></li>
+    <li class="list-group-item color" style="background-color: #616161;"><span class="shade">600</span><span class="hex">#616161</span></li>
     <li class="list-group-item color" style="background-color: #484848;"><span class="shade">700</span><span class="hex">#484848</span></li>
-    <li class="list-group-item color" style="background-color: #2e2e2e;"><span class="shade expanded">800</span><span class="hex">#2e2e2e</span></li>
-    <li class="list-group-item color" style="background-color: #151515;"><span class="shade expanded">900</span><span class="hex">#151515</span></li>
+    <li class="list-group-item color" style="background-color: #2e2e2e;"><span class="shade">800</span><span class="hex">#2e2e2e</span></li>
+    <li class="list-group-item color" style="background-color: #151515;"><span class="shade">900</span><span class="hex">#151515</span></li>
   </ul>
 </section>
 {% endexample %}
