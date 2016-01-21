@@ -15,8 +15,8 @@ group: style-guide
       <span class="shade light-strong">500</span>
       <span class="hex light-strong">#9e9e9e</span>
     </li>
-    <li class="list-group-item color dark" style="background-color: #fafafa;"><span class="shade">50</span><span class="hex">#fafafa</span></li>
-    <li class="list-group-item color dark" style="background-color: #e1e1e1;"><span class="shade">100</span><span class="hex">#e1e1e1</span></li>
+    <li class="list-group-item grey-50"><span class="shade">50</span><span class="hex">#fafafa</span></li>
+    <li class="list-group-item grey-100"><span class="shade">100</span><span class="hex">#e1e1e1</span></li>
     <li class="list-group-item color dark" style="background-color: #c7c7c7;"><span class="shade">200</span><span class="hex">#c7c7c7</span></li>
     <li class="list-group-item color dark" style="background-color: #aeaeae;"><span class="shade">300</span><span class="hex">#aeaeae</span></li>
     <li class="list-group-item color dark" style="background-color: #949494;"><span class="shade">400</span><span class="hex">#949494</span></li>
