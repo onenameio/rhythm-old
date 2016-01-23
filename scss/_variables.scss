@@ -3,6 +3,7 @@
 // Copy settings from this file into the provided `_custom.scss` to override
 // the Bootstrap defaults without modifying key, versioned files.
 
+
 // Table of Contents
 //
 // Colors
@@ -15,11 +16,10 @@
 // Grid columns
 // Fonts
 // Components
+
 // General variable structure
 //
 // Variable format should follow the `$component-modifier-state-property` order.
-
-// Inverse theme
 
 
 // Colors
@@ -32,12 +32,11 @@ $gray-light:                #818a91 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
-$brand-primary:             #4a90e2 !default;
-$brand-success:             #62c462 !default;
+$brand-primary:             #0275d8 !default;
+$brand-success:             #5cb85c !default;
 $brand-info:                #5bc0de !default;
-$brand-warning:             #f89406 !default;
-$brand-danger:              #ee5f5b !default;
-
+$brand-warning:             #f0ad4e !default;
+$brand-danger:              #d9534f !default;
 
 
 // Options
@@ -48,7 +47,7 @@ $enable-flex:               false !default;
 $enable-rounded:            true !default;
 $enable-shadows:            false !default;
 $enable-gradients:          false !default;
-$enable-transitions:        true ;
+$enable-transitions:        false !default;
 $enable-hover-media-query:  false !default;
 $enable-grid-classes:       true !default;
 
@@ -143,15 +142,15 @@ $grid-gutter-width:          1.875rem !default; // 30px
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:     'Lato', sans-serif !default;
-$font-family-serif:          'Amiri', serif !default;
-$font-family-monospace:      'Source Code Pro', Courier New, monospace !default;
+$font-family-sans-serif:     "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:      Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:           $font-family-sans-serif !default;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
 $font-size-root:             16px !default;
 
-$font-size-base:             0.875rem !default;
+$font-size-base:             1rem !default;
 $font-size-lg:               1.25rem !default;
 $font-size-sm:               .875rem !default;
 $font-size-xs:               .75rem !default;
@@ -177,11 +176,11 @@ $line-height:                1.5 !default;
 
 $headings-margin-bottom:     ($spacer / 2) !default;
 $headings-font-family:       inherit !default;
-$headings-font-weight:       400 !default;
+$headings-font-weight:       500 !default;
 $headings-line-height:       1.1 !default;
 $headings-color:             inherit !default;
 
-$lead-font-size:             1rem !default;
+$lead-font-size:             1.25rem !default;
 $lead-font-weight:           300 !default;
 
 $text-muted:                  $gray-light !default;
@@ -665,5 +664,3 @@ $pre-bg:                      #f7f7f9 !default;
 $pre-color:                   $gray-dark !default;
 $pre-border-color:            #ccc !default;
 $pre-scrollable-max-height:   340px !default;
-
-
