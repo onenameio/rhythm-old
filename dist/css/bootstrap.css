@@ -1857,8 +1857,12 @@ pre code {
 }
 
 .form-control:focus {
+  background-color: #fff;
   border-color: #2e2e2e;
   outline: none;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
 }
 
 .form-control::-webkit-input-placeholder {
