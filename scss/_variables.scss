@@ -21,6 +21,24 @@
 //
 // Variable format should follow the `$component-modifier-state-property` order.
 
+// Custom colors
+
+$gray-50:                   #fafafa !default;
+$gray-60:                   #f0f0f0 !default;
+$gray-70:                   #e6e6e6 !default;
+$gray-100:                  #e1e1e1 !default;
+$gray-200:                  #c7c7c7 !default;
+$gray-300:                  #aeaeae !default;
+$gray-400:                  #949494 !default;
+$gray-500:                  #7b7b7b !default;
+$gray-600:                  #616161 !default;
+$gray-700:                  #484848 !default;
+$gray-800:                  #2e2e2e !default;
+$gray-900:                  #151515 !default;
+
+$black:                     #000000 !default;
+$white:                     #ffffff !default;
+$transparent:               transparent !default;
 
 // Colors
 //
@@ -43,11 +61,11 @@ $brand-danger:              #FF0000 !default;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-flex:               true !default;
+$enable-flex:               false !default;
 $enable-rounded:            false !default;
 $enable-shadows:            false !default;
 $enable-gradients:          false !default;
-$enable-transitions:        false !default;
+$enable-transitions:        true !default;
 $enable-hover-media-query:  false !default;
 $enable-grid-classes:       true !default;
 
@@ -57,7 +75,7 @@ $enable-grid-classes:       true !default;
 // Control the default styling of most Bootstrap elements by modifying these
 // variables. Mostly focused on spacing.
 
-$spacer:   1rem !default;
+$spacer:   .9375rem !default;
 $spacer-x: $spacer !default;
 $spacer-y: $spacer !default;
 $spacers: (
@@ -238,7 +256,7 @@ $table-border-color:            $gray-lighter !default;
 
 $btn-padding-x:                  2.5rem !default;
 $btn-padding-y:                  0.75rem !default;
-$btn-font-weight:                normal !default;
+$btn-font-weight:                bold !default;
 $btn-box-shadow:                 inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075) !default;
 $btn-active-box-shadow:          inset 0 3px 5px rgba(0,0,0,.125) !default;
 
@@ -248,7 +266,7 @@ $btn-primary-border:             $btn-primary-bg !default;
 
 $btn-secondary-color:            $gray-dark !default;
 $btn-secondary-bg:               #fff !default;
-$btn-secondary-border:           #fff !default;
+$btn-secondary-border:           $btn-secondary-bg !default;
 
 $btn-info-color:                 #fff !default;
 $btn-info-bg:                    $brand-info !default;
@@ -288,16 +306,16 @@ $btn-border-radius-sm:           $border-radius-sm !default;
 
 // Forms
 
-$input-padding-x:                .75rem !default;
-$input-padding-y:                .375rem !default;
+$input-padding-x:                1.5rem !default;
+$input-padding-y:                .625rem !default;
 
-$input-bg:                       #fff !default;
+$input-bg:                       $gray-60 !default;
 $input-bg-disabled:              $gray-lighter !default;
 
-$input-color:                    $gray !default;
-$input-border-color:             #ccc !default;
+$input-color:                    $gray-800 !default;
+$input-border-color:             $gray-60 !default;
 $input-btn-border-width:         $border-width !default; // For form controls and buttons
-$input-box-shadow:               inset 0 1px 1px rgba(0,0,0,.075) !default;
+$input-box-shadow:               inset 0 1px 1px rgba(0,0,0,0) !default;
 
 $input-border-radius:            $border-radius !default;
 $input-border-radius-lg:         $border-radius-lg !default;
