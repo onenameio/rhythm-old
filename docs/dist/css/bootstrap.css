@@ -6064,4 +6064,72 @@ a.text-danger:focus, a.text-danger:hover {
 .form-control:disabled {
   cursor: not-allowed;
 }
+
+.form-inverse-control {
+  display: block;
+  width: 100%;
+  padding: .625rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #2b2e33;
+  background-image: none;
+  border: 1px solid #f0f0f0;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+
+.form-inverse-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.form-inverse-control:focus {
+  color: #2e2e2e;
+  background-color: #fff;
+  border-color: #fff;
+  outline: none;
+  -webkit-transition: all ease-in-out .15s;
+       -o-transition: all ease-in-out .15s;
+          transition: all ease-in-out .15s;
+}
+
+.form-inverse-control:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: all ease-in-out .15s;
+       -o-transition: all ease-in-out .15s;
+          transition: all ease-in-out .15s;
+}
+
+.form-inverse-control::-webkit-input-placeholder {
+  color: #949494;
+  opacity: 1;
+}
+
+.form-inverse-control::-moz-placeholder {
+  color: #949494;
+  opacity: 1;
+}
+
+.form-inverse-control:-ms-input-placeholder {
+  color: #949494;
+  opacity: 1;
+}
+
+.form-inverse-control::placeholder {
+  color: #949494;
+  opacity: 1;
+}
+
+.form-inverse-control:disabled, .form-inverse-control[readonly] {
+  background-color: #eceeef;
+  opacity: 1;
+}
+
+.form-inverse-control:disabled {
+  cursor: not-allowed;
+}
 /*# sourceMappingURL=bootstrap.css.map */

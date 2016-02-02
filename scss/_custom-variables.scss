@@ -23,6 +23,17 @@
 
 // Custom colors
 
+$gray-blue-50:              #515862 !default;
+$gray-blue-100:             #42484f !default;
+$gray-blue-200:             #3a3f46 !default;
+$gray-blue-300:             #32373d !default;
+$gray-blue-400:             #2b2e33 !default;
+$gray-blue-500:             #23262a !default;
+$gray-blue-600:             #1b1e21 !default;
+$gray-blue-700:             #141517 !default;
+$gray-blue-800:             #0c0d0e !default;
+$gray-blue-900:             #040405 !default;
+
 $gray-50:                   #fafafa !default;
 $gray-60:                   #f0f0f0 !default;
 $gray-70:                   #e6e6e6 !default;
@@ -310,9 +321,11 @@ $input-padding-x:                1.5rem !default;
 $input-padding-y:                .625rem !default;
 
 $input-bg:                       $gray-60 !default;
+$input-bg-inverse:               $gray-blue-400 !default;
 $input-bg-disabled:              $gray-lighter !default;
 
 $input-color:                    $gray-800 !default;
+$input-color-inverse:            $white !default;
 $input-border-color:             $gray-60 !default;
 $input-btn-border-width:         $border-width !default; // For form controls and buttons
 $input-box-shadow:               inset 0 1px 1px rgba(0,0,0,0) !default;
