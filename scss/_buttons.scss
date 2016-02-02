@@ -11,9 +11,7 @@
   cursor: pointer;
   user-select: none;
   border: $input-btn-border-width solid transparent;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  @include button-size($btn-padding-y, $btn-padding-x, $font-size-xs, $line-height, $btn-border-radius);
+  @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $line-height, $btn-border-radius);
   @include transition(all .2s ease-in-out);
 
   &,
