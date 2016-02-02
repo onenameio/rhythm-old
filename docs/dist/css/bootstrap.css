@@ -326,7 +326,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #373a3c;
+  color: #2e2e2e;
   background-color: #fff;
 }
 
@@ -1857,7 +1857,7 @@ pre code {
 }
 
 .form-control:focus {
-  border-color: #66afe9;
+  border-color: #2e2e2e;
   outline: none;
 }
 
@@ -2814,7 +2814,7 @@ input[type="button"].btn-block {
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 1rem;
-  color: #373a3c;
+  color: #2e2e2e;
   text-align: left;
   list-style: none;
   background-color: #fff;

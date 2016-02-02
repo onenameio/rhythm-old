@@ -7,7 +7,6 @@
 // Core variables and mixins
 @import "custom";
 @import "variables";
-@import "custom";
 @import "mixins";
 
 // Reset and dependencies
@@ -22,7 +21,8 @@
 @import "grid";
 @import "tables";
 @import "forms";
-@import "buttons";
+// @import "buttons";
+@import "style-buttons";
 
 // Components
 @import "animation";
