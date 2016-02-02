@@ -3,32 +3,6 @@ layout: docs
 group: style-guide
 ---
 
-<h1 class="bd-title">Color</h1>
-
-#### Greyscale
-
-{% example html %}
-<section class="color-group">
-  <ul class="list-group">
-    <li class="list-group-item color main-color" style="background-color: #9e9e9e;">
-      <span class="name light-strong">Grey</span>
-      <span class="shade light-strong">500</span>
-      <span class="hex light-strong">#9e9e9e</span>
-    </li>
-    <li class="list-group-item grey lighten-3"><span class="shade lighten-3">50</span><span class="">#fafafa</span></li>
-    <li class="list-group-item grey"><span class="shade">100</span><span class="">#e1e1e1</span></li>
-    <li class="list-group-item "><span class="shade">200</span><span class="hex">#c7c7c7</span></li>
-    <li class="list-group-item "><span class="shade">300</span><span class="hex">#aeaeae</span></li>
-    <li class="list-group-item "><span class="shade">400</span><span class="hex">#949494</span></li>
-    <li class="list-group-item "><span class="shade">500</span><span class="hex">#7b7b7b</span></li>
-    <li class="list-group-item "><span class="shade">600</span><span class="hex">#616161</span></li>
-    <li class="list-group-item "><span class="shade">700</span><span class="hex">#484848</span></li>
-    <li class="list-group-item "><span class="shade">800</span><span class="hex">#2e2e2e</span></li>
-    <li class="list-group-item "><span class="shade">900</span><span class="hex">#151515</span></li>
-  </ul>
-</section>
-{% endexample %}
-
 <h1 class="bd-title">Grid</h1>
 
 #### Stacked-to-horizontal
