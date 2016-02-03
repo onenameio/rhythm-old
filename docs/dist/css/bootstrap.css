@@ -1837,7 +1837,7 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
-  padding: .625rem 1.5rem;
+  padding: .5rem 1.5rem;
   font-size: 1rem;
   line-height: 1.5;
   color: #2e2e2e;
@@ -1901,7 +1901,7 @@ pre code {
 }
 
 .form-control-label {
-  padding: .625rem 1.5rem;
+  padding: .5rem 1.5rem;
   margin-bottom: 0;
 }
 
@@ -1910,7 +1910,7 @@ input[type="date"].form-control,
 input[type="time"].form-control,
 input[type="datetime-local"].form-control,
 input[type="month"].form-control {
-  line-height: 2.75rem;
+  line-height: 2.5rem;
 }
 
 _::-webkit-full-page-media.input-sm,
@@ -1948,9 +1948,9 @@ input[type="month"].form-control {
 }
 
 .form-control-static {
-  min-height: 2.75rem;
-  padding-top: .625rem;
-  padding-bottom: .625rem;
+  min-height: 2.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   margin-bottom: 0;
 }
 
@@ -2053,9 +2053,9 @@ input[type="checkbox"].disabled {
 .form-control-danger {
   padding-right: 4.5rem;
   background-repeat: no-repeat;
-  background-position: center right .6875rem;
-  -webkit-background-size: 1.7875rem 1.7875rem;
-          background-size: 1.7875rem 1.7875rem;
+  background-position: center right .625rem;
+  -webkit-background-size: 1.625rem 1.625rem;
+          background-size: 1.625rem 1.625rem;
 }
 
 .has-success .text-help,
@@ -3100,7 +3100,7 @@ input[type="button"].btn-block {
 }
 
 .input-group-addon {
-  padding: .625rem 1.5rem;
+  padding: .5rem 1.5rem;
   margin-bottom: 0;
   font-size: 1rem;
   font-weight: normal;
@@ -6000,7 +6000,7 @@ a.text-danger:focus, a.text-danger:hover {
 .form-control {
   display: block;
   width: 100%;
-  padding: .625rem 1.5rem;
+  padding: .5rem 1.5rem;
   font-size: 1rem;
   line-height: 1.5;
   color: #2e2e2e;
@@ -6068,7 +6068,7 @@ a.text-danger:focus, a.text-danger:hover {
 .form-inverse-control {
   display: block;
   width: 100%;
-  padding: .625rem 1.5rem;
+  padding: .5rem 1.5rem;
   font-size: 1rem;
   line-height: 1.5;
   color: #fff;
