@@ -1901,7 +1901,7 @@ pre code {
 }
 
 .form-control-label {
-  padding: .5rem .9375rem;
+  padding: .5rem 1.5rem;
   margin-bottom: 0;
 }
 
@@ -3966,7 +3966,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding: .25em .4em;
   font-size: 75%;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1;
   color: #fff;
   text-align: center;
@@ -6127,6 +6127,19 @@ a.text-danger:focus, a.text-danger:hover {
 
 .form-inverse-control:disabled {
   cursor: not-allowed;
+}
+
+.form-control-label {
+  padding: .5rem .9375rem;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.form-inverse-control-label {
+  width: 150px;
+  padding-right: 1.40625rem;
+  color: #515862;
+  text-align: right;
 }
 
 .lead-out {

@@ -171,6 +171,22 @@
   }
 }
 
+// For use with horizontal and inline forms, when you need the label text to
+// align with the form controls.
+.form-control-label {
+  padding: $input-padding-y $spacer-x;
+  margin-bottom: 0; // Override the `<label>` default
+  font-size: 12px;
+}
+.form-inverse-control-label {
+  width: 150px;
+  color: $gray-blue-50;
+  text-align: right;
+  padding-right: $spacer-x * 1.5;
+}
+
+
+
 // Type
 //
 
