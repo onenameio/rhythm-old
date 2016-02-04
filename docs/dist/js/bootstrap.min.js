@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v0.0.3 ()
+ * Bootstrap v0.0.5 ()
  * Copyright 2011-2016 Halfmoon Labs, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */

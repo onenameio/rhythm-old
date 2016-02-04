@@ -1861,9 +1861,9 @@ pre code {
   background-color: #2e2e2e;
   border-color: #2e2e2e;
   outline: none;
-  -webkit-transition: all ease-in-out .15s;
-       -o-transition: all ease-in-out .15s;
-          transition: all ease-in-out .15s;
+  -webkit-transition: all .15s ease-in-out;
+       -o-transition: all .15s ease-in-out;
+          transition: all .15s ease-in-out;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -1901,7 +1901,7 @@ pre code {
 }
 
 .form-control-label {
-  padding: .5rem 1.5rem;
+  padding: .5rem .9375rem;
   margin-bottom: 0;
 }
 
@@ -5968,9 +5968,9 @@ a.text-danger:focus, a.text-danger:hover {
       -ms-user-select: none;
           user-select: none;
   border: 1px solid transparent;
-  -webkit-transition: all .2s ease-in-out;
-       -o-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
+  -webkit-transition: all .15s ease-in-out;
+       -o-transition: all .15s ease-in-out;
+          transition: all .15s ease-in-out;
 }
 
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
@@ -6007,11 +6007,9 @@ a.text-danger:focus, a.text-danger:hover {
   background-color: #f0f0f0;
   background-image: none;
   border: 1px solid #f0f0f0;
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-          transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -webkit-transition: all .15s ease-in-out;
+       -o-transition: all .15s ease-in-out;
+          transition: all .15s ease-in-out;
 }
 
 .form-control::-ms-expand {
@@ -6024,9 +6022,9 @@ a.text-danger:focus, a.text-danger:hover {
   background-color: #2e2e2e;
   border-color: #2e2e2e;
   outline: none;
-  -webkit-transition: all ease-in-out .15s;
-       -o-transition: all ease-in-out .15s;
-          transition: all ease-in-out .15s;
+  -webkit-transition: all .15s ease-in-out;
+       -o-transition: all .15s ease-in-out;
+          transition: all .15s ease-in-out;
 }
 
 .form-control:focus::-webkit-input-placeholder {
@@ -6090,9 +6088,9 @@ a.text-danger:focus, a.text-danger:hover {
   background-color: #fff;
   border-color: #fff;
   outline: none;
-  -webkit-transition: all ease-in-out .15s;
-       -o-transition: all ease-in-out .15s;
-          transition: all ease-in-out .15s;
+  -webkit-transition: all .15s ease-in-out;
+       -o-transition: all .15s ease-in-out;
+          transition: all .15s ease-in-out;
 }
 
 .form-inverse-control:focus::-webkit-input-placeholder {
@@ -6137,7 +6135,7 @@ a.text-danger:focus, a.text-danger:hover {
   color: #515862;
 }
 
-a {
+a, a:focus {
   outline: none;
 }
 /*# sourceMappingURL=bootstrap.css.map */

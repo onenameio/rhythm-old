@@ -16,7 +16,7 @@
   letter-spacing: 1px; // Custom
   border: $input-btn-border-width solid transparent;
   @include button-size($btn-padding-y, $btn-padding-x, $font-size-xs, $line-height, $btn-border-radius);
-  @include transition(all .2s ease-in-out);
+  @include transition(all .15s ease-in-out);
 
   &,
   &:active,
@@ -68,7 +68,7 @@
   // Note: This has no effect on <select>s in some browsers, due to the limited stylability of `<select>`s in CSS.
   @include border-radius($input-border-radius);
   @include box-shadow($input-box-shadow);
-  @include transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s);
+  @include transition(all .15s ease-in-out);
 
   // Make inputs at least the height of their button counterpart (base line-height + padding + border).
   // Only apply the height to textual inputs and some selects.
@@ -179,6 +179,6 @@
   font-weight: $lead-out-font-weight;
   color: $gray-blue-50;
 }
-a {
+a, a:focus {
   outline: $link-outline;
 }
