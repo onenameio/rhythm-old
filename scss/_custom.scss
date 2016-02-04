@@ -179,6 +179,6 @@
   font-weight: $lead-out-font-weight;
   color: $gray-blue-50;
 }
-a {
+a, a:focus {
   outline: $link-outline;
 }

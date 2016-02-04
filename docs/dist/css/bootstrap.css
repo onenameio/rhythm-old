@@ -6137,7 +6137,7 @@ a.text-danger:focus, a.text-danger:hover {
   color: #515862;
 }
 
-a {
+a, a:focus {
   outline: none;
 }
 /*# sourceMappingURL=bootstrap.css.map */
