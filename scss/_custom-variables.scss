@@ -174,12 +174,12 @@ $font-family-base:           $font-family-sans-serif !default;
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
 $font-size-root: 16px !default;
 
-$font-size-base: 1rem !default;
+$font-size-base: .875rem !default; //Custom GL
 $font-size-lg:   1.25rem !default;
 $font-size-sm:   .875rem !default;
 $font-size-xs:   0.6875rem !default;
 
-$font-size-h1: 2.5rem !default;
+$font-size-h1: 2.25rem !default; //Custom GL
 $font-size-h2: 2rem !default;
 $font-size-h3: 1.75rem !default;
 $font-size-h4: 1.5rem !default;
@@ -318,7 +318,7 @@ $btn-border-radius-sm:           $border-radius-sm !default;
 // Forms
 
 $input-padding-x:                1.5rem !default;
-$input-padding-y:                .625rem !default;
+$input-padding-y:                .5rem !default;
 
 $input-bg:                       $gray-60 !default;
 $input-bg-inverse:               $gray-blue-400 !default;
@@ -336,6 +336,7 @@ $input-border-radius-lg:         $border-radius-lg !default;
 $input-border-radius-sm:         $border-radius-sm !default;
 
 $input-border-focus:             $gray-800 !default;
+$input-border-focus-inverse:     $white !default;
 $input-box-shadow-focus:         rgba(102,175,233,0) !default;
 
 $input-color-placeholder:        $gray-400 !default;

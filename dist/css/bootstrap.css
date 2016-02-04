@@ -324,7 +324,7 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  font-size: 1rem;
+  font-size: .875rem;
   line-height: 1.5;
   color: #2e2e2e;
   background-color: #fff;
@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 h2 {
@@ -530,7 +530,7 @@ h6 {
 }
 
 .h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 .h2 {
@@ -623,7 +623,7 @@ mark,
 .blockquote {
   padding: .46875rem .9375rem;
   margin-bottom: .9375rem;
-  font-size: 1.25rem;
+  font-size: 1.09375rem;
   border-left: .25rem solid #eceeef;
 }
 
@@ -1837,8 +1837,8 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
-  padding: .625rem 1.5rem;
-  font-size: 1rem;
+  padding: .5rem 1.5rem;
+  font-size: .875rem;
   line-height: 1.5;
   color: #2e2e2e;
   background-color: #f0f0f0;
@@ -1901,7 +1901,7 @@ pre code {
 }
 
 .form-control-label {
-  padding: .625rem 1.5rem;
+  padding: .5rem 1.5rem;
   margin-bottom: 0;
 }
 
@@ -1910,7 +1910,7 @@ input[type="date"].form-control,
 input[type="time"].form-control,
 input[type="datetime-local"].form-control,
 input[type="month"].form-control {
-  line-height: 2.75rem;
+  line-height: 2.3125rem;
 }
 
 _::-webkit-full-page-media.input-sm,
@@ -1948,9 +1948,9 @@ input[type="month"].form-control {
 }
 
 .form-control-static {
-  min-height: 2.75rem;
-  padding-top: .625rem;
-  padding-bottom: .625rem;
+  min-height: 2.3125rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   margin-bottom: 0;
 }
 
@@ -2053,9 +2053,9 @@ input[type="checkbox"].disabled {
 .form-control-danger {
   padding-right: 4.5rem;
   background-repeat: no-repeat;
-  background-position: center right .6875rem;
-  -webkit-background-size: 1.7875rem 1.7875rem;
-          background-size: 1.7875rem 1.7875rem;
+  background-position: center right .578125rem;
+  -webkit-background-size: 1.503125rem 1.503125rem;
+          background-size: 1.503125rem 1.503125rem;
 }
 
 .has-success .text-help,
@@ -2205,7 +2205,7 @@ input[type="checkbox"].disabled {
 .btn {
   display: inline-block;
   padding: .75rem 2.5rem;
-  font-size: 1rem;
+  font-size: .875rem;
   font-weight: bold;
   line-height: 1.5;
   text-align: center;
@@ -2816,7 +2816,7 @@ input[type="button"].btn-block {
   min-width: 160px;
   padding: 5px 0;
   margin: 2px 0 0;
-  font-size: 1rem;
+  font-size: .875rem;
   color: #2e2e2e;
   text-align: left;
   list-style: none;
@@ -3100,9 +3100,9 @@ input[type="button"].btn-block {
 }
 
 .input-group-addon {
-  padding: .625rem 1.5rem;
+  padding: .5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: .875rem;
   font-weight: normal;
   line-height: 1.5;
   color: #2e2e2e;
@@ -4664,7 +4664,7 @@ button.list-group-item-danger.active:hover {
 
 .close {
   float: right;
-  font-size: 1.5rem;
+  font-size: 1.3125rem;
   font-weight: bold;
   line-height: 1;
   color: #000;
@@ -5045,7 +5045,7 @@ button.close {
 .popover-title {
   padding: 8px 14px;
   margin: 0;
-  font-size: 1rem;
+  font-size: .875rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
 }
@@ -6000,8 +6000,8 @@ a.text-danger:focus, a.text-danger:hover {
 .form-control {
   display: block;
   width: 100%;
-  padding: .625rem 1.5rem;
-  font-size: 1rem;
+  padding: .5rem 1.5rem;
+  font-size: .875rem;
   line-height: 1.5;
   color: #2e2e2e;
   background-color: #f0f0f0;
@@ -6068,8 +6068,8 @@ a.text-danger:focus, a.text-danger:hover {
 .form-inverse-control {
   display: block;
   width: 100%;
-  padding: .625rem 1.5rem;
-  font-size: 1rem;
+  padding: .5rem 1.5rem;
+  font-size: .875rem;
   line-height: 1.5;
   color: #fff;
   background-color: #2b2e33;
@@ -6131,5 +6131,10 @@ a.text-danger:focus, a.text-danger:hover {
 
 .form-inverse-control:disabled {
   cursor: not-allowed;
+}
+
+.lead-out {
+  font-size: .875rem;
+  font-weight: 300;
 }
 /*# sourceMappingURL=bootstrap.css.map */
