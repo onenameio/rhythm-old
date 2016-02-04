@@ -6135,6 +6135,7 @@ a.text-danger:focus, a.text-danger:hover {
 
 .lead-out {
   font-size: .875rem;
-  font-weight: 300;
+  font-weight: 500;
+  color: #515862;
 }
 /*# sourceMappingURL=bootstrap.css.map */
