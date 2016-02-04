@@ -170,3 +170,11 @@
     cursor: $cursor-disabled;
   }
 }
+
+// Type
+//
+
+.lead-out {
+  font-size: $font-size-base;
+  font-weight: $lead-font-weight;
+}
